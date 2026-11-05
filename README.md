@@ -9,7 +9,7 @@ and running it on microcontrollers.
 - [**esp32-maglev**](https://github.com/Taraved/esp32-maglev) — magnetic levitation testbed on ESP32
   for measuring how much closed-loop control quality a neural controller loses when it runs in int8
   instead of float32. Actuator analysis and simulation done; closed-loop measurements in progress.
-- [**mk_emul**](https://github.com/LifeStyle28/mk_emul) — STM32F407 (Cortex-M4) desktop emulator,
+- [**mk_emul**](https://github.com/Taraved/mk_emul) — STM32F407 (Cortex-M4) desktop emulator,
   course project at UrFU. My part ([#1](https://github.com/LifeStyle28/mk_emul/pull/1),
   [#2](https://github.com/LifeStyle28/mk_emul/pull/2)): Cortex-M4 core with exact interrupt timing
   and FPU context, timers and PWM, HAL/FreeRTOS builds, source-level debugger over GDB, 127 tests.
