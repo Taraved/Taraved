@@ -22,10 +22,10 @@ and embedded implementation on microcontrollers.
 
 **Current Research**
 
-- **Discrete-Time ADRC for a "Ball and Plate" System** *(UrFU, supervised by Duong Ngoc Anh)* —
-  mathematical modelling and discretization of an Active Disturbance Rejection Controller (4th-order
-  plant with a 5th-order Extended State Observer), analyzing closed-loop stability under multi-rate
-  sampling (1 ms controller loop vs. 40 ms vision sensor delay) and measurement noise.
-  *Initial mathematical modelling in progress; repository will be published soon.*
+- Effect of Quality Factor on RLC Filter Behaviour (UrFU, supervised by Duong Ngoc Anh) —
+  co-authored paper in preparation. Modelling low-pass, high-pass, band-pass and band-stop RLC filters
+  in  MATLAB/Engee; linking Q to frequency-domain (bandwidth, peaking) and time-domain (overshoot,
+  settling time) behaviour, and analysing sensitivity of resonant frequency and Q to inductor losses
+  and component tolerances. Early stage.
 
 **Tools:** Python, C/C++, STM32, ESP32, FreeRTOS, Qt, Quantum Computing (QAOA/QUBO), Git, Linux
